@@ -3,7 +3,7 @@
 ## Overview
 
 A cross-platform mobile application for early Parkinson’s disease screening using sustained voice recordings.  
-Users record a 5–8 second “aaaah” sound, which is processed through a **FastAPI backend** that extracts vocal biomarkers and predicts the likelihood of Parkinson’s disease using a **hyperparameter-tuned XGBoost model**.
+Users record a 5–8 second “a” vowel sound, which is processed through a **FastAPI backend** that extracts vocal biomarkers and predicts the likelihood of Parkinson’s disease using a **hyperparameter-tuned XGBoost model**.
 
 ---
 
