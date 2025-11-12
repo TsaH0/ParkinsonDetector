@@ -43,18 +43,9 @@ The model is optimized for realistic smartphone audio and small dataset size.
 ---
 
 ## System Architecture
+<img width="1764" height="2536" alt="Untitled diagram-2025-11-12-004831" src="https://github.com/user-attachments/assets/b1a925e0-a086-4d4a-a46d-cc726a76a249" />
 
-```mermaid
-flowchart TD
-    A[User holds 'aaaah' for 5–8 seconds] --> B[React Native App (Expo, TypeScript)]
-    B --> C[Audio recorded via Expo AV]
-    C --> D[FastAPI Backend (Python)]
-    D --> E[Feature Extraction (librosa)]
-    E --> F[Feature Scaling (RobustScaler)]
-    F --> G[XGBoost Model Prediction]
-    G --> H[JSON Response]
-    H --> I[Frontend displays probability, diagnosis, and features]
-```
+
 
 ---
 
