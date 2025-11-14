@@ -211,4 +211,3 @@ By regenerating features from realistic mobile recordings and retraining a tuned
 
 ---
 
-*Copy and paste this entire file as `README.md` into your repository root.*
